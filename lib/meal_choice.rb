@@ -3,8 +3,8 @@ def meal_choice(veg1, veg2, protein = "meat")
   order = "A plate of #{protein} with #{veg1} and #{veg2}."
   
   if protein == "meat"
-  puts phrase
-  return order
+  # puts phrase
+  return phrase + order
   else
     return order
   end
