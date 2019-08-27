@@ -5,6 +5,8 @@ def meal_choice(veg1, veg2, protein = "meat")
   if protein == "meat"
   puts phrase
   return order
+  else
+    return order
   end
 end
 
